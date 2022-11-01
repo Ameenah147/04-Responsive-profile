@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+ background-color: rgb(128, 119, 119);
+ background-image: url(https://img.freepik.com/premium-photo/simple-white-background-with-smooth-lines-light-colors_476363-5558.jpg?w=826);
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.nav-container{
+  background-color: bisque;
+  border-radius: 10px;
+}
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  border-style: solid;
+  height:fit-content;
+  border-radius: 10px;
+  width: 10vwh;
+  box-shadow:10px 5px grey;
+  padding: 10px;
+  margin: 10px;
+}
+.nav-link{
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.25rem;
+
+}
+.box-1{
+  margin: 0 auto;
+  height: 600px;
+
+}
+.box-1-header h1{
+ text-align: center;
+ padding: 10px;
+ font-size: 45px;
+}
+.box-1-header img{
+  width: 45px;
+}
+.box-1 p{
+  font-size: 20px;
+}
+
+element.style {
+  width: 25px;
+}
+.box-1-image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  padding:3px;
+  border-radius: 15px;
+}
+.box-1-text p{
+  text-align: justify;
+  margin:10px;
+}
+/* .banner{
+  margin: 10px;
+  border: solid 2px;
+  height: 45vh;
+  background-image: url(https://img.freepik.com/free-vector/background-wave-white-gradient-design_483537-1124.jpg?w=826&t=st=1667293177~exp=1667293777~hmac=e2b7abd4ea8ec73889ccdc471c6dc54cfa6e16048434b8e9f111e426ea49ead5);
+  box-shadow:4px 4px  #c9c4c4;
+
+} */
+/* .banner h1{
+  text-align: center;
+  font-size: 45px;
+} */
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.ts-line { overflow: hidden; padding: 0 0 0.2em 0; margin: 0 0 -0.1em; } */
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+
+/* blockquote {
+  cursor: pointer;
+  display: block;
+  font-size: 3.5em;
+  max-width: 10em;
+  margin: auto;
+  line-height: 2;
+
+ small { margin-top: 0.2em; text-align: right; display: block; font-size: 0.6em; }
+}
+
+
+.note {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #FFF;
+  font-size: 0.8em;
+  opacity: 0;
+} */
+
+.box-2{
+  margin: 0 auto;
+  /* border: solid 2px; */
+  height: 600px;
+}
+.box-2 h1{
+  font-size: 45px;
+  text-align: center;
+}
+.box-2-text h2{
+  font-size: 35px;
+  text-align: center;
+}
+.box-2-list{
+  list-style: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer{
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(184, 172, 169);
+  color: rgb(96, 79, 79);
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+  background-image: url(https://img.freepik.com/free-vector/black-gold-marble-texture_125540-835.jpg?size=626&ext=jpg&ga=GA1.2.1200787370.1665483338);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+div#carousel {
+  perspective: 500px;
+  background: #100000;
+  padding-top: 10%;
+  font-size:0;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  background-image: url(https://img.freepik.com/free-vector/marble-texture-background_125540-356.jpg?w=900&t=st=1667301699~exp=1667302299~hmac=e282378f09e74e193bc635c3d7764313018fb007153a5b2c138c94aaf1701217);
+  background-size: contain;
+}
+figure#spinner {
+  transform-style: preserve-3d;
+  height: 300px;
+  transform-origin: 50% 50% -500px;
+  transition: 1s;
+}
+figure#spinner img {
+  width: 40%; max-width: 425px;
+  position: absolute; left: 30%;
+  transform-origin: 50% 50% -500px;
+  outline:1px solid transparent;
+}
+figure#spinner img:nth-child(1) { transform:rotateY(0deg);
+}
+figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
+figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
+figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
+figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
+figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
+figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
+figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
+div#carousel ~ span {
+  color: #fff;
+  margin: 5%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: 0.6s color;
+  position: relative;
+  margin-top: -6rem;
+  border-bottom: none;
+  line-height: 0; }
+div#carousel ~ span:hover { color: #888; cursor: pointer; }
